@@ -47,11 +47,11 @@
 * <code>gradle authPageTests -Dhost=local</code> : Запуск тестов на странице авторизации
 
 ### Команда запуска тестов удалённо 
-```
+
 * <code>gradle allTests -Dhost=remote </code> : Запуск всех тестов 
 * <code>gradle mainPageTests -Dhost=remote </code> : Запуск тестов главной страницы
 * <code>gradle authPageTests -Dhost=remote </code> : Запуск тестов на странице авторизации
-```
+
 При запуске удалённо тест будет выполняться удаленно в браузере при помощи <code>Selenoid</code>
 
 ## <img width="7%" style="vertical-align:middle" title="Allure Report" src="mediaReadme/logo/Allure_Report.svg"> Пример [Allure-отчета](https://jenkins.autotests.cloud/job/Pikabu_UI_Project/32/allure/)
